@@ -105,7 +105,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 [_ADJUST] = LAYOUT_planck_grid(
     _______, _______, _______, G(S(KC_4)), G(S(KC_5)), _______, _______, _______, _______, _______, _______, _______ ,
     KC_CAPS, _______, KC_MPRV, KC_MPLY,    KC_MNXT,    _______, _______, _______, _______, _______, _______, _______,
-    CAPSWRD, _______, KC_MUTE, KC_VOLD,    KC_VOLU,    _______, _______, KC_BRID, KC_BRIU, _______, _______, _______,
+    QK_CAPS_WORD_TOGGLE, _______, KC_MUTE, KC_VOLD,    KC_VOLU,    _______, _______, KC_BRID, KC_BRIU, _______, _______, _______,
     _______, _______, _______, _______,    _______,    _______, _______, _______, _______, _______, _______, _______
 )
 
